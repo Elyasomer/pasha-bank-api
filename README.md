@@ -5,12 +5,11 @@ A Python client for interacting with PASHA Bank's API.
 
 ## Installation
 
-First, ensure you have Poetry installed.
+You can install the package using pip:
 
-To set up the project, run the following commands:
-
-
-```poetry install```
+```bash
+pip install pasha-bank-api
+```
 
 
 ## Usage
