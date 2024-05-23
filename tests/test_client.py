@@ -7,9 +7,9 @@ class TestPashaBankAPI(unittest.TestCase):
     def setUp(self):
         self.api = PashaBankAPI(
             base_url='https://ecomm.pashabank.az:18443/ecomm2/MerchantHandler',
-            ssl_cert='.certs/certificate.0030938.pem',
-            ssl_key='.certs/server.key',
-            ssl_pass=None
+            ssl_cert='path/to/cert.pem',
+            ssl_key='path/to/key.pem',
+            ssl_pass='your_password'
         )
 
     def test_start_sms_transaction(self):
