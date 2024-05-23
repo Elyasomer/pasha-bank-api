@@ -187,6 +187,10 @@ To run the tests, ensure you are in the Poetry shell, and run:
 pytest
 ```
 
+## Contributing
+
+Contributions are welcome! Please submit a pull request or open an issue to discuss what you want to change.
+
 ## License
 
 This project is licensed under the MIT License.
